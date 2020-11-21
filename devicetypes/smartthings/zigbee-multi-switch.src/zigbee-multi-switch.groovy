@@ -249,6 +249,8 @@ private getChildCount() {
 		return 5
 	} else if (device.getDataValue("model") == "E220-KR6N0Z0-HA") {
 		return 6 
+	} else if (device.getDataValue("model") == "TS011F") {
+		return 3
 	} else if (device.getDataValue("model") == "PM-S340-ZB" || device.getDataValue("model") == "PM-S340R-ZB" || device.getDataValue("model") == "PM-S350-ZB" || device.getDataValue("model") == "ST-S350-ZB") {
 		return 3
 	} else {
